@@ -51,6 +51,6 @@ class ner_hmm():
 
 
 if __name__ == "__main__":
-    input = "Keluhan Pelatih Filipina Usai Disingkirkan Timnas Indonesia"
+    input = input("Enter your text: ")
     ner_hmm(input).ner()
 
